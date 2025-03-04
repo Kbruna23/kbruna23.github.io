@@ -64,6 +64,12 @@ footer {
 			background-color:#CDC69A;
 			margin-left: 10px;
 			margin-right:10px; 
+			
+		}
+		.background-image{
+			background-image: url("discover.jpeg");
+			background-repeat: no-repeat;
+			background-size: cover; 
 		}
 		
 		ul {
@@ -93,7 +99,11 @@ li a:hover {
 		background-color: #687451; 
 
 	}
-		
+		img{ 
+			width:330px;
+			position:relative;
+		border:2px solid;
+			} 	
 		#home header{
 			background-color:#532D1C;
 		}
@@ -104,7 +114,7 @@ li a:hover {
 			 padding: 40px;
 		 }
 		#home footer{
-			background-color:#B9AB99
+			background-color:#B9AB99;
 			padding: 50px;
 		}
 		
@@ -112,22 +122,19 @@ li a:hover {
 			color: #CCCBC5;
 			margin: auto 0;
 		}
-		# home container{
+		#home .container{
 		width:1100px;
 		margin:0 auto;
 		background-color:#C29666;
 		position:static;
 		border:3px solid;
 		}
-		img{ 
-			width:330px;
-			position:relative;
-		border:2px solid;
-			} 
-		#home .two-column{
-			display:grid;
+
+		
+		#home .two-column{ 
+			display: grid;
 			grid-template-columns: 60% 40%;
-			padding: 40px;
+			padding: 30px;
 			background-color:#B76635;
 	
 		}
@@ -135,24 +142,22 @@ li a:hover {
 			margin-right: 10px;
 			margin-left: 10px;
 			background-color:#B76635;
-			position:static;
-			border: 1px solid;
-		}
 		
+		}
 		#home .three-column{
 			display:grid;
 			grid-template-columns: 33% 33% 33%;
 			padding:40px;
 			background-color:#956643;
 		}
-		#home.three-column div {
+		#home .three-column div {
 			background-color:#956643;
 			margin-left: 10px;
 			margin-right:10px; 
 		}
 
 		#projects header{
-			background-color:#f48900;
+			background-color:#26140C;
 		}
 		 
 		#projects header h2{
@@ -161,7 +166,7 @@ li a:hover {
 			 padding: 40px;
 		 }
 		#projects footer{
-			background-color:#B9AB99
+			background-color:#26140c;
 			padding: 50px;
 		}
 		
@@ -201,6 +206,40 @@ li a:hover {
 			margin-left: 10px;
 			margin-right:10px; 
 		}
+		#container{
+		width:1050px;
+		margin:0 auto;
+		background-color:#775F4E;
+		}
+		 #project img{ 
+			width:400px;
+			} 
+		 #project .two-column{
+			display:grid;
+			grid-template-columns: 60% 40%;
+			padding: 40px;
+			background-color:#6B261F;
+		}
+		 #project .two-column div {
+			margin-right: 10px;
+			margin-left: 10px;
+			background-color:#532D1C;
+			
+		}
+		
+		 #project .three-column{
+			display:grid;
+			grid-template-columns: 33% 33% 33%;
+			padding:40px;
+			background-color:#6C3C2E;
+		}
+		 #project.three-column div {
+			background-color:#CDC69A;
+			margin-left: 10px;
+			margin-right:10px; 
+			
+		}
+
 		
 		ul {
   list-style-type: none;
@@ -261,8 +300,8 @@ li a {
 			margin-right: 10px;
 			margin-left: 10px;
 			background-color:#ECC590;
-			
 		}
+
 		
 		#contacts .three-column{
 			display:grid;
@@ -274,4 +313,13 @@ li a {
 			background-color:#956643;
 			margin-left: 10px;
 			margin-right:10px; 
+		}
+		.container {
+            text-align: center;
+            background: #854023;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: #CD7A3E;
+            width: 400px;
+			margin:0 auto;
 		}
