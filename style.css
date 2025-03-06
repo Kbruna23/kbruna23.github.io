@@ -16,18 +16,19 @@ footer {
 			color: #CCCBC5;
 			padding-left: 100px;
 			padding-right:100px;
+			background-color: #6B261F;
 }
-		#about header{
+		#discoverEU header{
 			background-color:#795d4c;
 		}
 		 
-		 #about header h2{
+		 #discoverEU  header h2{
 			 color: #fff;
 			 margin:0; 
 			 padding: 40px;
 		 }
-		 #about footer{
-			background-color:#B9AB99
+		 #discoverEU  footer{
+			background-color:#6B261F;
 			padding: 50px;
 		}
 		
@@ -38,29 +39,29 @@ footer {
 		margin:0 auto;
 		background-color:#775F4E;
 		}
-		 #about img{ 
+		 #discoverEU  img{ 
 			width:400px;
 			} 
-		 #about .two-column{
+#discoverEU .two-column{
 			display:grid;
 			grid-template-columns: 60% 40%;
 			padding: 40px;
 			background-color:#6B261F;
 		}
-		 #about .two-column div {
+		 #discoverEU  .two-column div {
 			margin-right: 10px;
 			margin-left: 10px;
 			background-color:#532D1C;
 			
 		}
 		
-		 #about .three-column{
+		#discoverEU .three-column{
 			display:grid;
 			grid-template-columns: 33% 33% 33%;
 			padding:40px;
 			background-color:#6C3C2E;
 		}
-		 #about .three-column div {
+		 #discoverEU .three-column div {
 			background-color:#CDC69A;
 			margin-left: 10px;
 			margin-right:10px; 
@@ -95,11 +96,7 @@ li a {
 li a:hover {
   background-color:#612A22;
 }
-	#contacts {
-		background-color: #687451; 
-
-	}
-		img{ 
+	img{ 
 			width:330px;
 			position:relative;
 		border:2px solid;
@@ -114,13 +111,14 @@ li a:hover {
 			 padding: 40px;
 		 }
 		#home footer{
-			background-color:#B9AB99;
+			background-color:#6B261F;
 			padding: 50px;
 		}
 		
 		#home footer p {
 			color: #CCCBC5;
 			margin: auto 0;
+			position: center;
 		}
 		#home .container{
 		width:1100px;
@@ -165,10 +163,6 @@ li a:hover {
 			 margin:0; 
 			 padding: 40px;
 		 }
-		#projects footer{
-			background-color:#26140c;
-			padding: 50px;
-		}
 		
 		#projects footer p {
 			color: #CCCBC5;
@@ -180,14 +174,17 @@ li a:hover {
 		background-color:#775F4E;
 		}
 		#projects img{ 
-			width:315px;
+			width:320px
+			display:grid;
 			} 
 		#projects .two-column{
 			display:grid;
 			grid-template-columns: 60% 40%;
 			padding: 40px;
 			background-color:#6B261F;
+			
 		}
+		
 		#projects .two-column div {
 			margin-right: 10px;
 			margin-left: 10px;
@@ -198,7 +195,7 @@ li a:hover {
 		#projects .three-column{
 			display:grid;
 			grid-template-columns: 33% 33% 33%;
-			padding:40px;
+			padding:30px;
 			background-color:#6C3C2E;
 		}
 		#projects .three-column div {
@@ -217,7 +214,7 @@ li a:hover {
 		 #project .two-column{
 			display:grid;
 			grid-template-columns: 60% 40%;
-			padding: 40px;
+			padding: 30px;
 			background-color:#6B261F;
 		}
 		 #project .two-column div {
@@ -230,7 +227,7 @@ li a:hover {
 		 #project .three-column{
 			display:grid;
 			grid-template-columns: 33% 33% 33%;
-			padding:40px;
+			padding:20px;
 			background-color:#6C3C2E;
 		}
 		 #project.three-column div {
@@ -260,17 +257,17 @@ li a {
   padding: 14px 25px;
   text-decoration: none;
 }
-		
 		#contacts {
-		background-color: #623528; 
+		background-color: #687451; 
 	}
+
 #contacts header{
 			background-color:#8E775E;
 		}
 		 
 		#contacts header h2{
 			 color: #fff;
-			 margin:0; 
+			 margin:0 auto; 
 			 padding: 40px;
 		 }
 		#contacts footer{
@@ -283,7 +280,7 @@ li a {
 			margin: auto 0;
 		}
 		#contacts container{
-		width:1100px;
+		width:700px;
 		margin:0 auto;
 		background-color:#BD9E77;
 		}
@@ -293,33 +290,23 @@ li a {
 		#contacts .two-column{
 			display:grid;
 			grid-template-columns: 60% 40%;
-			padding: 40px;
+			padding: 30px;
 			background-color:#ECC590;
 		}
 		#contacts .two-column div {
 			margin-right: 10px;
 			margin-left: 10px;
 			background-color:#ECC590;
-		}
-
-		
-		#contacts .three-column{
-			display:grid;
-			grid-template-columns: 33% 33% 33%;
-			padding:40px;
-			background-color:#956643;
-		}
-		#contacts.three-column div {
-			background-color:#956643;
-			margin-left: 10px;
-			margin-right:10px; 
-		}
-		.container {
+		} 
+		#contacts .container {
             text-align: center;
-            background: #854023;
+            background: #532D1C;
             padding: 20px;
             border-radius: 10px;
             box-shadow: #CD7A3E;
-            width: 400px;
+            width: 300px;
 			margin:0 auto;
+		}
+		.container-contacts {
+			padding:30px 0px;
 		}
